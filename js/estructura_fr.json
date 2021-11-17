@@ -1,0 +1,36 @@
+{
+	"tituloCurso" : "Bases relatives à la Gestion de Centres d’Opérations d’Urgence",
+	"generales" :[{
+		"btnComenzar":"Commencer",
+		"cargando":"cargando...",
+		"tituloTour":"Tour virtuel dans un COE",
+		"titulosArea": ["Secteur de communications ou secteur d’information et d’analyse", "Secteur de décisions opérationnelles", "Secteur de décisions politiques"],
+		"bienvenidaIntro": "Bienvenue au tour virtuel dans un COE"
+	}],
+	"paginas" :[{
+		"id" : "1",
+		"locs" : "3",
+		"subt":["Bonjour, je m'appelle Juan et je vais vous accompagner dans cette tour virtuel.", "L'impact d'un événement indésirable a provoqué une catastrophe et, en conséquence, il a été décidé d'activer le Centre d’Opérations d’Urgence, conformément aux dispositions du Manuel de Protocoles et de Procédures Opérationnelles.", "Je vous invite à vous joindre à moi pour apprendre à le connaître un peu mieux."]
+	},{
+		"id" : "2",
+		"locs" : "4",
+		"subt":["Comme nous l'avons vu dans le cours, le Centre d’Opérations d’Urgence est un outil vital et utile pour la gestion et le contrôle des opérations de réponse á urgences et catastrophes.", "Pour qu'il puisse remplir sa mission, il est nécessaire de développer méthodologiquement son organisation et son fonctionnement, en intégrant des concepts basés sur la notion de processus de prise de décision et en incorporant des secteurs structurés en composantes de décision politique, d'opérations et de communication.", "Il existe plusieurs modèles d'organisation du COE. Dans cette tour virtuel, nous examinerons le modèle à trois secteurs.", "Cliquez sur chaque secteur du COE pour en savoir plus."]
+	},{
+		"id" : "3",
+		"locs" : "5",
+		"subt":["Nous avons terminé cette tour virtuel.","N'oubliez pas que le COE est un composant du Système MACOE qui interagit avec d'autres outils de gestion et de contrôle, tels que :","Salles de situation, Postes de commande, et Centres d’Opérations d’autres niveaux territoriaux ; ils appliquent tous un processus coordonné de prise de décisions en fonction de leur juridiction et des compétences juridiques.","Le COE est plus qu’un local dûment doté pour la prise de décisions dans des situations critiques, est un agglomérat d’éléments, qui interagissent depuis le niveau opérationnel dans la zone d’urgence, jusqu’au niveau de décision politique le plus élevé.","J'espère que vous en avez appris un peu plus avec cette tour virtuel !"]
+	}],
+	"videos" : [{
+		"id" : "1",
+		"tiempos":[0,12,21,32,46,54,57,63],
+		"subt": ["Le secteur de communications (ou secteur d’information et d’analyse) collecte et traite des données en rapport avec l’événement, à partir de son occurrence afin de générer et de transmettre de l’information utile pour la prise de décisions.","Ce secteur obtient des données directement des « Équipes d'évaluation des dommages et d'analyse des besoins » mobilisées dans les zones d'impact, ainsi que d'autres sources primaires et secondaires, ","pour transmettre de l’information fiable et opportune aux différentes instances de l’organisation fonctionnelle du COE. De même, il tient un registre actualisé de toute l’information qu’il produit.","Il doit disposer de personnel formé en suffisance pour administrer des données en grands volumes et les transformer en matières premières pour la prise de décisions, à transmettre au secteur opérationnel ou au secteur politique, selon le cas, comme établi dans les procédures opérationnelles.","C’est ici que l’on mène à bien la transformation de données en information utile pour la prise de décisions, et ce processus comprend généralement:","La saisie de données provenant de toutes les sources fiables que possible.","Le traitement des données dans le système et mise à jour en temps réel, à la main ou par des ordinateurs.","Le suivi et l’actualisation des informations pour établir l’état de situation, selon les périodes opérationnelles préalablement établies."]
+	},{
+		"id" : "2",
+		"tiempos":[0,10,20,26,37],
+		"subt": ["Le secteur de décisions opérationnelles est chargé de l’opération conjointe et de la prise de décisions conformément aux plans établis, en utilisant des procédures standard d’opérations.", "C'est ici que s'effectuent la planification et la coordination des opérations inter-institutionnelles susceptibles de garantir une réponse effective aux effets produits par l’événement.","De même, il est chargé de coordonner la planification et l’exécution des cours d‘action interinstitutionnels afin d’apporter une réponse ", "aux besoins découlant de l’événement, grâce à une identification adéquate des problèmes et une priorisation des actions de réponse ; de plus, il répond aux décisions qui seront prises au niveau politico-stratégique.", "Le secteur d’opérations se divise en champs et en fonctions de soutien, citant à titre d'exemple les secteurs de la logistique, des services d'urgence, des infrastructures et des services de base, et des soins à la population, entre autres."]
+	},{
+		"id" : "3",
+		"tiempos":[0,14,30,46],
+		"subt": ["Le secteur de décisions politiques peut être physiquement (ou non) dans les installations du COE, mais qui doit garantir être lié à ce dernier, c’est-à-dire qu’il doit exister un rapport direct entre les preneurs de décisions politiques et les preneurs de décisions opérationnelles.", "L’on doit tenir compte du fait que les urgences et les désastres sont gérés comme des crises politiques et que les politiques voient en eux une tâche qui leur incombe. C’est pourquoi, il est extrêmement important que les niveaux de décision politique fassent partie de la chaîne de décisions pendant le désastre.", "Au cours d’un désastre, il y a des décisions qui ne sont pas « strictement techniques », comme, par exemple : la déclaration d’urgence nationale, qui est la décision politique typique qui, bien qu'elle doive avoir une base technique, ce sont les politiques qui ont le pouvoir de décider de sa pertinence.", "Ce secteur représenté par les structures politiques du pays, de l'État, de la province, du département ou de la commune est présidé au niveau national par le Président de la République, au niveau provincial ou départemental par le Gouverneur ou le Préfet et au niveau communal par le Maire ou l'Intendant ou assimilé."]
+	}]
+}

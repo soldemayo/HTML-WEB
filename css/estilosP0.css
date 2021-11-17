@@ -1,0 +1,96 @@
+.p0{
+	background-image: url("../img/bgIntro.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.p0 .fondoLogos{
+	background-image: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.75) 50%, rgba(255,255,255,0) 100%);
+}
+
+.p0 ul{
+	list-style: none;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+	font-weight: 100;
+}
+
+.p0 ul li{
+	text-align: center;
+	width: 100%;
+	color: #000;
+	background-color: rgba(255,255,255,0.90);
+	border: none;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	cursor: pointer;
+	transition: all .2s linear;
+}
+.p0 ul li span{
+	border-right: 3px solid #000;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	line-height: 0.9;
+}
+.p0 ul li:last-child span{
+	border: none;
+}
+
+.p0 ul li.idiomaActivo{
+	background-color: #666;
+	font-weight: bold;
+	border: 0;
+	color: #FFF;
+	pointer-events: none;
+}
+.p0 ul li.idiomaActivo span{
+	border: none;
+}
+.p0 ul li:hover{
+	background-color: #000 !important;
+	color: #FFF !important
+}
+
+#inicio{
+	text-align: center;
+}
+#inicio h1 {
+	font-size: 40px;
+	align-self: center;
+	margin: 0;
+	font-weight: bold;
+}
+#inicio h2 {
+	font-size: 30px;
+	align-self: center;
+	margin: 0;
+	font-weight: 400;
+}
+#inicio .separador{
+	width: 50%;
+	height: 4px;
+	background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+	margin-left: 25%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#inicio .btnComenzar {
+	display: flex;
+	align-items: center;
+	padding: 1%;
+	font-weight: 300;
+	text-transform: none;
+	height: 45px;
+	background-color: #FFFFFF;
+}
+#inicio .btnComenzar p {
+	margin: 0;
+}
+#inicio .btnComenzar:hover {
+	border: none;
+	color: #FFF;
+	background-color: #000
+}

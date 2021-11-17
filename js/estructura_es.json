@@ -1,0 +1,36 @@
+{
+	"tituloCurso" : "Fundamentos para el Manejo de Centros de Operaciones de Emergencia",
+	"generales" :[{
+		"btnComenzar":"Comenzar",
+		"cargando":"cargando...",
+		"tituloTour":"Tour virtual por un COE",
+		"titulosArea": ["Área de comunicaciones o área de información y análisis", "Área de decisiones operativas", "Área de decisiones políticas"],
+		"bienvenidaIntro": "Bienvenido al tour virtual por un COE"
+	}],
+	"paginas" :[{
+		"id" : "1",
+		"locs" : "3",
+		"subt":["¡Hola! Me llamo Juan y les estaré acompañando por este tour virtual.", "Se ha producido el impacto de un evento adverso que ha provocado un desastre y, como consecuencia, se ha decidido activar el Centro de Operaciones de Emergencia, de acuerdo a lo establecido en el Manual de Protocolos y Procedimientos Operativos.", "Les invito a acompañarme para que lo conozcan un poco más."]
+	},{
+		"id" : "2",
+		"locs" : "4",
+		"subt":["Como hemos visto en el Curso, el Centro de Operaciones de Emergencia es una herramienta vital y útil para el manejo y control de las operaciones de respuesta a emergencias y desastres.", "Para que cumpla con su cometido es necesario desarrollar metodológicamente su organización y su funcionamiento, incorporando conceptos que parten de la noción de procesos de toma de decisiones e incorporación de áreas estructuradas en componentes de decisión política, operaciones y comunicaciones.", "Existen varios modelos organizacionales del COE y en este tour virtual vamos a revisar el modelo de tres áreas.", "Pulsa en cada área del COE para seguir aprendiendo."]
+	},{
+		"id" : "3",
+		"locs" : "5",
+		"subt":["Hemos terminado el recorrido por este tour virtual.","Recuerda que el COE es un componente del Sistema MACOE que interactúa con otras herramientas de manejo y control, tales como:","Salas de Situación, Puestos de Comando, y Centros de Operaciones Emergencia de otros niveles territoriales; todos ellos aplicando un proceso coordinado de toma de decisiones según su jurisdicción y competencias legales.","El COE es más que un local debidamente dotado para la toma de decisiones en situaciones críticas, es un conglomerado de elementos, que interactúan desde el nivel operativo en la zona de emergencia, hasta el nivel de decisión política más alto.","¡Espero que hayas aprendido un poco más con este tour virtual!"]
+	}],
+	"videos" : [{
+		"id" : "1",
+		"tiempos":[0,14,23,36,53,61,66,73],
+		"subt": ["El área de comunicaciones (o área de información y análisis) recolecta y procesa datos relacionados con el evento, a partir de su ocurrencia, con el fin de generar y remitir información útil para la toma de decisiones.","Esta área obtiene datos provenientes directamente de los equipos EDAN movilizados a las zonas de impacto, así como de otras fuentes primarias y secundarias,","para entregar información conﬁable y oportuna a las diferentes instancias de la organización funcional del COE. Así mismo, mantiene un registro actualizado, en tiempo real, de toda la información que produce.","Debe contar con personal suficiente y capacitado para administrar datos en grandes volúmenes y transformarlos en insumos para toma de decisiones para derivarlas al área operativa o área política si fuera el caso, lo anterior según haya sido establecido en los procedimientos operativos.","Es aquí donde se lleva a cabo la transformación de datos en información útil para la toma de decisiones, y este proceso generalmente incluye:","Ingreso de datos provenientes de todas las fuentes confiables posibles.","Procesamiento de los datos, en el sistema y actualización en tiempo real, manualmente o a través de computadoras.","Seguimiento y actualización de la información para establecer el estado de situación, de acuerdo con periodos operacionales previamente establecidos."]
+	},{
+		"id" : "2",
+		"tiempos":[0,11,24,38,44],
+		"subt": ["El área de decisiones operativas tiene a su cargo la operación conjunta y la toma de decisiones conforme a los planes establecidos, utilizando procedimientos estándar de operación.", "Aquí se desarrollan las acciones de planificación y coordinación de las operaciones interinstitucionales, que garanticen una efectiva respuesta para la resolución de problemas que son provocados por los efectos del impacto del evento.","Así mismo, se coordina la planificación y ejecución de los cursos de acción interinstitucionales para dar respuesta a las necesidades derivadas del evento, por medio de una adecuada identiﬁcación de problemas y priorización de las acciones de respuesta.", "De igual forma, da cumplimiento a las decisiones que se tomen en el nivel político-estratégico.", "El área de operaciones se divide en sectores y funciones de soporte, citando a manera de ejemplos los sectores de logística, servicios de emergencia, infraestructura y servicios básicos, y atención a la población, entre otros."]
+	},{
+		"id" : "3",
+		"tiempos":[0,17,35,51],
+		"subt": ["El área de decisiones políticas puede estar físicamente (o no) en las instalaciones del COE, pero debe de garantizarse que esté vinculada al mismo, es decir, que debe existir una relación directa entre los tomadores de decisiones políticas y los de decisiones operativas.", "Se debe tener en cuenta que las emergencias y los desastres se manejan como crisis políticas y los políticos ven en ello, una tarea que les compete. Por tal razón, es sumamente importante que los estamentos de decisión política sean parte de la cadena de decisiones durante el desastre.", "Durante un desastre, existen decisiones que no son “estrictamente técnicas”, como, por ejemplo: la declaratoria de emergencia nacional, que es la típica decisión política que, si bien debe tener sustento técnico, es facultad política decidir su pertinencia.", "Esta área representada por las estructuras políticas del país, estado, provincia, departamento o municipio está presidida en el nivel nacional por el Presidente de la República, en el nivel provincial o departamental, por el Gobernador o Prefecto y a nivel municipal por el Alcalde o Intendente o su similar."]
+	}]
+}

@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icon/icomoon.eot?tmvqks');
+  src:  url('icon/icomoon.eot?tmvqks#iefix') format('embedded-opentype'),
+    url('icon/icomoon.ttf?tmvqks') format('truetype'),
+    url('icon/icomoon.woff?tmvqks') format('woff'),
+    url('icon/icomoon.svg?tmvqks#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pause:before {
+  content: "\e914";
+  color: #fff;
+}
+.icon-play_arrow:before {
+  content: "\e915";
+  color: #fff;
+}
+.icon-back:before {
+  content: "\e902";
+}
+.icon-home:before {
+  content: "\e903";
+}
+.icon-play:before {
+  content: "\e906";
+}
+.icon-dot2:before {
+  content: "\e910";
+  color: #fff;
+}
+.icon-opennew:before {
+  content: "\e90e";
+  color: #fff;
+}
+.icon-book:before {
+  content: "\e90f";
+  color: #fff;
+}
+.icon-file_download:before {
+  content: "\e90d";
+}
+.icon-touch_app:before {
+  content: "\e90c";
+  color: #fff;
+}
+.icon-dot:before {
+  content: "\e90b";
+  color: #fff;
+}
+.icon-ayuda:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-destaca:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-info_1:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-info:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-lock:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-next:before {
+  content: "\e911";
+  color: #fff;
+}
+.icon-pils:before {
+  content: "\e912";
+  color: #fff;
+}
+.icon-prev:before {
+  content: "\e913";
+  color: #fff;
+}
+.icon-reto:before {
+  content: "\e908";
+  color: #fff;
+}
+.icon-salir:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-unlock:before {
+  content: "\e90a";
+  color: #fff;
+}

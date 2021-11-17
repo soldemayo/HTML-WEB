@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es<">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tour virtual por un COE</title>
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/iconos.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/animate.compat.css" rel="stylesheet">
+<link href="css/estilosTour.css" rel="stylesheet">
+<link href="css/estilosP0.css" rel="stylesheet">
+<link href="css/estilosP1.css" rel="stylesheet">
+<link href="css/estilosP2.css" rel="stylesheet">
+<link href="css/estilosP3.css" rel="stylesheet">
+
+
+<link rel="prefetch" href="img/cinema.gif">
+<link rel="prefetch" href="img/bgIntro.jpg">
+<link rel="prefetch" href="img/menu01.jpg">
+<link rel="prefetch" href="img/menu02.jpg">
+<link rel="prefetch" href="img/menu03.jpg">
+<link rel="prefetch" href="img/spritePersonaje.png">
+
+	
+<style>
+#preload-01 { background: url("img/cinema.gif") no-repeat -9999px -9999px; }
+#preload-02 { background: url("img/bgIntro.jpg") no-repeat -9999px -9999px; }
+#preload-03 { background: url("img/menu01.png") no-repeat -9999px -9999px; }
+#preload-04 { background: url("img/menu02.jpg") no-repeat -9999px -9999px; }
+#preload-05 { background: url("img/menu03.jpg") no-repeat -9999px -9999px; }
+#preload-0 { background: url("img/spritePersonaje.png") no-repeat -9999px -9999px; }
+</style>	
+
+
+</head>
+<body>
+
+	<div id="contenedor" class="contenedor m-0 p-0">
+		<div class="spinner-box">
+			<div class="circle-border">
+				<div class="circle-core"></div>
+			</div>
+		</div>
+		<div id="capaBlanca"></div>
+		<div id="cajaSubtitulos"><p>Aca van los subtitulos</p></div>
+		<div id="personaje"></div>
+		<!--////////////////////////////// CABECERA //////////////////////////////-->
+		<header class="d-none animate__animated">
+			<div class="row align-items-center">
+					<img src="img/logoIFRC.png" alt="" class="logoIFRC">
+					<img src="img/logoUSAID_es.png" alt="" class="i logoUSAID">
+				<div class="" id="titulosCabecera">
+					<h2>Fundamentos para Manejo de Centros de Operaciones de Emergencia0</h2>
+					<h1>Tour virtual por un COE0 <span id="area"></span></h1>
+				</div>
+				<button class="h-100 btnHome" data-btn="home"><i class="icon-home"></i></button>
+			</div>
+		</header>
+		<!--////////////////////////////// CABECERA //////////////////////////////-->
+		<!--//////////////////////////////// MAIN ////////////////////////////////-->
+		<main class="container-fluid h-100 m-0 p-0">
+			<div id="contenidoM" class="carousel slide m-0 p-0 col-12 h-100" data-ride="carousel" data-interval="false" role="listbox">
+				<div class="carousel-inner h-100">
+					<!--//////////////////////////////// P0 INICIO ////////////////////////////////-->
+					<div id="0" class="carousel-item active p0 h-100">
+						<div class="row">
+							<ul class="col-2 offset-9 idiomas">
+								<li class="selecidioma_es" data-idioma="es"><span>esp</span></li>
+								<li class="selecidioma_en" data-idioma="en"><span>eng</span></li>
+								<li class="selecidioma_fr" data-idioma="fr"><span>fra</span></li>
+								<li class="selecidioma_pt" data-idioma="pt"><span>por</span></li>
+							</ul>
+						</div>
+						<div class="row justify-content-center mt-5 mb-5 pt-5 pb-5 fondoLogos">
+								<img src="img/logoIFRC.png" alt="" class="img-fluid">
+								<img src="img/logoUSAID_es.png" alt="" class="img-fluid logoUSAID">
+						</div>
+						<div class="row">
+							<div class="col-12" id="inicio">
+								<h1 class="">Bienvenido al Tour virtual por un COE0</h1>
+								<div class="separador"></div>
+								<h2 class="">Fundamentos para Manejo de Centros de Operaciones de Emergencia0</h2>
+								<div class="row justify-content-center mt-5">
+									<button class="btnComenzar botonGral"><p>Comenzar0</p></button>
+								</div>
+							</div>
+						</div>
+					</div><!--/// FIN P0 ///-->
+					
+					
+					<!--//////////////////////////////// P1 CINEMA ////////////////////////////////-->
+					<div id="1" class="carousel-item h-100 p1">
+						
+					</div><!--/// FIN P1 ///-->
+					
+					<!--//////////////////////////////// P2 MENU ////////////////////////////////-->
+					<div id="2" class="carousel-item h-100 p2">
+						<div id="menu" class=" h-100 overflow-hidden disabled">
+							<div class="contMenu contMenu01" data-area="1">
+								<div class="pMenu pMenu01">
+									<h3>Área de comunicaciones o Área de Información y análisis0</h3>
+								</div>
+							</div>
+							<div class="contMenu contMenu02" data-area="2">
+								<div class="pMenu pMenu02">
+									<h3>Área de decisiones operativas0</h3>
+								</div>
+							</div>
+							<div class="contMenu contMenu03" data-area="3">
+								<div class="pMenu pMenu03">
+									<h3>Área de decisiones políticas0</h3>
+								</div>
+							</div>
+							<div class="contenido d-none">
+								<div class="skew-image">
+									<div></div><!-- #1 -->
+									<div></div><!-- #2 -->
+								</div>
+								<i id="play" class="icon-play"></i>
+								<div class="tituloVideo"><p>Nombre del Área</p></div>
+								<div class="logosPoster">
+									<img src="img/logoIFRC.png" alt="" class="logoIFRC">
+									<img src="img/logoUSAID_es.png" alt="" class="i logoUSAID">
+								</div>
+								<div id="cierreVideo">
+									<img src="img/bgGradient.svg" alt="">
+									<div class="rombo"></div>
+								</div>
+								<video src="media/v01.mp4" id="video01" class="d-none video" preload="auto"></video>
+								<video src="media/v02.mp4" id="video02" class="d-none video" preload="auto"></video>
+								<video src="media/v03.mp4" id="video03" class="d-none video" preload="auto"></video>
+								<audio src="" type="audio/mp3" class="videoAudio" id="videoAudio01" preload="auto"></audio>
+								<audio src="" type="audio/mp3" class="videoAudio" id="videoAudio02" preload="auto"></audio>
+								<audio src="" type="audio/mp3" class="videoAudio" id="videoAudio03" preload="auto"></audio>
+								<div id="controlesVideo" class="none">
+									<div id="avanceVideo">
+										<div class="barraAvance"></div>
+									</div>
+									<button class=""></button>
+								</div><!-- CONTROLES -->
+							</div>
+						</div>
+					
+						
+					</div><!--/// FIN P2 ///-->
+					
+					<!--//////////////////////////////// P3 DESPEDIDA ////////////////////////////////-->
+					<div id="3" class="carousel-item h-100 p3">
+						<img src="img/poster_es.png" alt="" class="logosDespedida">
+					</div><!--/// FIN P3 ///-->
+					
+				</div>
+			</div><!--/// FIN CAROUSEL ///-->
+		</main><!--/// FIN MAIN ///-->
+		
+
+
+		
+		
+
+	
+	
+
+	
+
+
+
+<script src="js/lib/jQueryv3.6.0min.js"></script>
+<script src="js/lib/jquery-ui-1.12.1.js"></script>
+<script src="js/lib/bootstrap.js"></script> 
+<script src="js/lib/bootstrap.bundle.min.js"></script> 
+<script src="js/redimensionar.js"></script>
+<script src="js/tourFunc.js"></script>   
+	
+	</div>
+<audio src="media/videobg.mp3" loop id="videobg"></audio>
+</body>
+</html>

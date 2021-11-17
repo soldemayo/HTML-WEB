@@ -1,0 +1,12 @@
+.p3{
+	background-image: url("../img/cinema.gif");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.p3 .logosDespedida{
+	display: none;
+	width: 100%;
+	mix-blend-mode: multiply;
+}

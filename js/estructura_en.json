@@ -1,0 +1,36 @@
+{
+	"tituloCurso" : "Fundamentals of Emergency Operations Centre Management",
+	"generales" :[{
+		"btnComenzar":"Start",
+		"cargando":"cargando...",
+		"tituloTour":"Virtual tour through a COE",
+		"titulosArea": ["Communications area or information and analysis area", "Operational decision-making area", "Policy decision-making area"],
+		"bienvenidaIntro": "Welcome to the virtual tour through a COE"
+	}],
+	"paginas" :[{
+		"id" : "1",
+		"locs" : "3",
+		"subt":["Hello! My name is John and I will be accompanying you on this virtual tour.", "The impact of an adverse event has caused a disaster and, as a consequence, it has been decided to activate the Emergency Operations Centre, in accordance with the established in the Operational Protocols and Procedures Manual.", "I invite you to join me to get to know it a little better."]
+	},{
+		"id" : "2",
+		"locs" : "4",
+		"subt":["As we have seen in the Course, the Emergency Operations Centre is a vital and useful tool for the management and control of emergency and disaster response operations.", "In order for it to fulfil its mission, it is necessary to methodologically develop its organisation and functioning, incorporating concepts based on the notion of decision-making processes and incorporating areas structured into policy decision-making, operations and communications components.", "There are several COE organisational models and in this virtual tour we are going to review the three area model.", "Click on each area of the COE to learn more."]
+	},{
+		"id" : "3",
+		"locs" : "5",
+		"subt":["We have finished the virtual tour.","Remember that the COE is a component of the MACOE System that interacts with other management and control tools, such as:","Situation Rooms, Command Posts, and Emergency Operations Centres at other territorial levels; all of them applying a coordinated decision-making process according to their jurisdiction and legal competencies.","The COE is more than just a properly equipped facility for decision-making in critical situations, it is a conglomerate of elements that interact from the operational level in the emergency zone to the highest policy decision-making level.","I hope you have learned a bit more with this virtual tour!"]
+	}],
+	"videos" : [{
+		"id" : "1",
+		"tiempos":[0,12,18,30,42,50,53,59],
+		"subt": ["The communications area (or information and analysis area) collects and processes data related to the event, from its occurrence, in order to generate and forward useful information for decision-making.","This area obtains data directly from the EDAN teams mobilised to the impact zones, as well as from other primary and secondary sources,","in order to provide reliable and timely information to the different levels of the COE's functional organisation. It also keeps an updated record, in real time, of all the information it produces.","It must have sufficient and trained personnel to manage large volumes of data and transform them into inputs for decision-making to be forwarded to the operational or policy area, as established in the operational procedures.","This is where the transformation of data into decision-useful information takes place, and this process generally includes:","Data entry from as many reliable sources as possible.","Data processing, in the system and updating in real time, manually or through computers.","Tracking and updating of information to establish the status of the situation, according to previously established operational periods."]
+	},{
+		"id" : "2",
+		"tiempos":[0,10,20,31,37],
+		"subt": ["The operational decision-making area is responsible for joint operations and decision-making in accordance with established plans, using standard operating procedures.", "This is where the planning and coordination of inter-institutional operations are carried out, to guarantee an effective response to resolve problems caused by the effects of the impact of the event.","Likewise, it coordinates the planning and execution of inter-institutional courses of action to respond to the needs arising from the event, by means of an adequate identification of problems and prioritisation of response actions. It also implements the decisions taken at the policy-strategic level.", "The operations area is divided into sectors and support functions, citing as examples the sectors of logistics, emergency services, infrastructure and basic services, and attention to the population, among others."]
+	},{
+		"id" : "3",
+		"tiempos":[0,14,28,43],
+		"subt": ["The policy decision-making area may (or may not) be physically located on the COE's facilities, but it must be ensured that it is linked to the COE, i.e. there must be a direct relationship between the policy decision-makers and the operational decision-makers.", "It should be taken into account that emergencies and disasters are handled as political crises and politicians see this as their task. For this reason, it is extremely important that political decision-makers are part of the decision chain during a disaster.", "During a disaster, there are decisions that are not “strictly technical”, such as, for example, the declaration of a national emergency, which is a typical political decision that, although it must have a technical basis, it is the political power to decide its relevance.", "This area, represented by the political structures of the country, state, province, department or municipality, is presided over at the national level by the President of the Republic, at the provincial or departmental level by the Governor or Prefect, and at the municipal level by the Mayor or Intendant or similar."]
+	}]
+}
